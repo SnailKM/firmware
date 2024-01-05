@@ -1,0 +1,58 @@
+{
+    "manufacturer": "SnailDOS",
+    "keyboard_name": "SnailPad 9",
+    "maintainer": "SnailDOS",
+    "bootloader": "atmel-dfu",
+    "bootmagic": {
+        "enabled": true,
+        "matrix": [0, 0]
+    },
+    "diode_direction": "ROW2COL",
+    "encoder": {
+        "enabled": true
+    },
+    "mouse_key": {
+        "enabled": false
+    },
+    "processor": "atmega32u4",
+    "rgblight": {
+        "led_count": 10,
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "snake": true,
+            "knight": true,
+            "christmas": true,
+            "static_gradient": true,
+            "rgb_test": true,
+            "alternating": true,
+            "twinkle": true
+        }
+    },
+    "ws2812": {
+        "pin": "E6"
+    },
+    "url": "https://shop.snaildos.com",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x5335",
+        "vid": "0x5344"
+    },
+    "layouts": {
+        "LAYOUT_default": {
+            "layout": [
+                {"label":"Encoder", "x":2, "y":0, "matrix": [0,0]},
+                {"x":0, "y":1, "matrix": [0,3]},
+                {"x":1, "y":1, "matrix": [0,2]},
+                {"x":2, "y":1, "matrix": [0,1]},
+                {"x":0, "y":2, "matrix": [1,3]},
+                {"x":1, "y":2, "matrix": [1,2]},
+                {"x":2, "y":2, "matrix": [1,1]},
+                {"x":0, "y":3, "matrix": [2,3]},
+                {"x":1, "y":3, "matrix": [2,2]},
+                {"x":2, "y":3, "matrix": [2,1]}
+            ]
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+	"keyboard_name": "ok", 
+	"manufacturer": "ok",
+	"url": "https://redacted.com", 
+	"maintainer": "sure", 
+	"usb": {
+		"vid": "0x3728",
+		"pid": "0x2949",
+		"device_version": "1.0.0"
+	},
+	"layouts": {
+	    "LAYOUT_default": {
+			"layout": [{"x":0, "y":0}, {"x":1, "y":0}, {"x":0, "y":1}, {"x":1, "y":1}]
+		}
+	}
+    }
