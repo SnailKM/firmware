@@ -13,6 +13,9 @@
 #define ENCODERS_PAD_A { B4 }
 #define ENCODERS_PAD_B { B5 } 
 
+/* RGB */
+#define RGBLIGHT_SLEEP
+
 /* misc */
 #define LAYER_STATE_8BIT
 #define NO_ACTION_TAPPING
